@@ -1,0 +1,28 @@
+## Terraform
+*.tfstate
+*.tfstate.backup
+*.tfplan
+*.tfvars*
+crash.log
+**/.terraform/
+**/.terraform.lock.hcl
+override.tf
+override.tf.json
+*_override.tf
+*_override.tf.json
+
+## macOS
+.DS_Store
+**/.DS_Store
+
+## Python venv
+.venv/
+**/.venv/
+**/__pycache__/
+**/*.pyc
+
+## Editor junk
+.idea/
+.vscode/
+*.swp
+*~
